@@ -30,7 +30,6 @@ import SwiftUI
 struct ContentView: View {
 
 @State private var fontColor = Color.black
-
 var body: some View {
 Text("Long press here to show a context menu")
 .foregroundColor(fontColor)
